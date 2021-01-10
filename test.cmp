@@ -1,0 +1,6 @@
+func main() {
+    print("hello, world"); /* should print 'hello, world' to the screen */
+    exit(); /* results in segmentation fault without this, exit status normally results in 0 */
+    /* just for fun, heres a bad thing */
+    //“”
+}
